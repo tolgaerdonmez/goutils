@@ -1,4 +1,4 @@
-package github.com/tolgaerdonmez/goutils
+package goutils
 
 import (
 	"io/ioutil"
