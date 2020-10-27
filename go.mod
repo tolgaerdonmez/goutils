@@ -1,4 +1,4 @@
-module goutils
+module github.com/tolgaerdonmez/goutils
 
 go 1.15
 
