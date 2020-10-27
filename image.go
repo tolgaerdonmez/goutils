@@ -1,4 +1,4 @@
-package goutils
+package github.com/tolgaerdonmez/goutils
 
 import (
 	"fmt"

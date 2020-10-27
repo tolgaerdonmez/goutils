@@ -1,4 +1,4 @@
-package goutils
+package github.com/tolgaerdonmez/goutils
 
 // HasItem checks for item in given slice
 func HasItem(list []string, items ...string) bool {
