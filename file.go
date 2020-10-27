@@ -29,9 +29,7 @@ func ReadDir(dir string) []string {
 	}
 
 	for _, file := range files {
-		if file.IsDir() || !file.IsDir() && (strings.Contains(file.Name(), ".jpg") || strings.Contains(file.Name(), ".jpeg")) {
-			filenames = append(filenames, path.Join(dir, file.Name()))
-		}
+		filenames = append(filenames, path.Join(dir, file.Name()))
 	}
 
 	return filenames
